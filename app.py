@@ -1,4 +1,5 @@
-
+from flask_ngrok import run_with_ngrok
+from flask import Flask
 import numpy as np
 from flask import Flask, request, jsonify, render_template
 import pickle
@@ -6,6 +7,7 @@ from transformers import pipeline
 ques_ans = pipeline('question-answering')
 
 app = Flask(__name__)
+run_with_ngrok(app)
 
 
 
