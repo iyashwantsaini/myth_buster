@@ -1,13 +1,4 @@
-.primary-gradient {
-	background: rgba(66,134,244,1);
-background: -moz-linear-gradient(left, rgba(66,134,244,1) 0%, rgba(66,226,244,1) 100%);
-background: -webkit-gradient(left top, right top, color-stop(0%, rgba(66,134,244,1)), color-stop(100%, rgba(66,226,244,1)));
-background: -webkit-linear-gradient(left, rgba(66,134,244,1) 0%, rgba(66,226,244,1) 100%);
-background: -o-linear-gradient(left, rgba(66,134,244,1) 0%, rgba(66,226,244,1) 100%);
-background: -ms-linear-gradient(left, rgba(66,134,244,1) 0%, rgba(66,226,244,1) 100%);
-background: linear-gradient(to right, rgba(66,134,244,1) 0%, rgba(66,226,244,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4286f4', endColorstr='#42e2f4', GradientType=1 );
-}
+
 
 .site-blocks-cover {
 	background-size: cover;
@@ -18,7 +9,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4286f4', end
 	position: relative;
 	&:after {
 		position: absolute;
-		background-image: url('../images/svg_1.svg');
+		background-image: url("{{ url_for('static', filename='images/svg_1.svg') }}");
 		// background-
 		content: "";
 		right: 0;
