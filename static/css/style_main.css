@@ -647,16 +647,6 @@ h1, h2, h3, h4, h5,
     padding-bottom: 10px !important; }
 
 /* Blocks */
-.primary-gradient, .bg-image2.overlay:before {
-  background: #4286f4;
-  background: -moz-linear-gradient(left, #4286f4 0%, #42e2f4 100%);
-  background: -webkit-gradient(left top, right top, color-stop(0%, #4286f4), color-stop(100%, #42e2f4));
-  background: -webkit-linear-gradient(left, #4286f4 0%, #42e2f4 100%);
-  background: -o-linear-gradient(left, #4286f4 0%, #42e2f4 100%);
-  background: -ms-linear-gradient(left, #4286f4 0%, #42e2f4 100%);
-  background: -webkit-gradient(linear, left top, right top, from(#4286f4), to(#42e2f4));
-  background: linear-gradient(to right, #4286f4 0%, #42e2f4 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4286f4', endColorstr='#42e2f4', GradientType=1 ); }
 
 .site-blocks-cover {
   background-size: cover;
@@ -1072,12 +1062,7 @@ h1, h2, h3, h4, h5,
       right: 0;
       bottom: 0;
       left: 0;
-      background: -moz-linear-gradient(top, transparent 0%, transparent 18%, rgba(0, 0, 0, 0.8) 99%, rgba(0, 0, 0, 0.8) 100%);
-      background: -webkit-linear-gradient(top, transparent 0%, transparent 18%, rgba(0, 0, 0, 0.8) 99%, rgba(0, 0, 0, 0.8) 100%);
-      background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(18%, transparent), color-stop(99%, rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8)));
-      background: -o-linear-gradient(top, transparent 0%, transparent 18%, rgba(0, 0, 0, 0.8) 99%, rgba(0, 0, 0, 0.8) 100%);
-      background: linear-gradient(to bottom, transparent 0%, transparent 18%, rgba(0, 0, 0, 0.8) 99%, rgba(0, 0, 0, 0.8) 100%);
-      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#cc000000',GradientType=0 ); }
+      }
   .block-12 .text-overlay {
     position: absolute;
     bottom: 20px;
@@ -1269,13 +1254,7 @@ h1, h2, h3, h4, h5,
     bottom: 0;
     top: 0;
     left: 0;
-    right: 0;
-    background: -moz-linear-gradient(top, transparent 0%, transparent 18%, rgba(0, 0, 0, 0.8) 99%, rgba(0, 0, 0, 0.8) 100%);
-    background: -webkit-linear-gradient(top, transparent 0%, transparent 18%, rgba(0, 0, 0, 0.8) 99%, rgba(0, 0, 0, 0.8) 100%);
-    background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(18%, transparent), color-stop(99%, rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8)));
-    background: -o-linear-gradient(top, transparent 0%, transparent 18%, rgba(0, 0, 0, 0.8) 99%, rgba(0, 0, 0, 0.8) 100%);
-    background: linear-gradient(to bottom, transparent 0%, transparent 18%, rgba(0, 0, 0, 0.8) 99%, rgba(0, 0, 0, 0.8) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#cc000000',GradientType=0 ); }
+    right: 0; }
   .unit-1 img {
     -o-object-fit: cover;
     object-fit: cover;
