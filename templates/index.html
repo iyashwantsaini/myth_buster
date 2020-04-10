@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>MythBuster</title>
+    <title>Analytic Ware</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -104,26 +104,23 @@
             
 
             <div class="login">
-            <h1>QnA</h1>
+            <h1>Q&A Demo </h1>
 
             <form action="{{ url_for('predict') }}" method="post">
-                <!-- <input type="text" name="context",placeholder="context"> -->
+
                 <div class="form-group">
-                <label for="exampleFormControlSelect1">Select Context</label>
-                <select class="form-control" id="exampleFormControlSelect1" name="context" placeholder="Select Context">
-                    <option value="Vaccine">Vaccines</option>
-                    <option value="Cases Worldwide">treatment</option>
-                    <option value="Deaths">Deaths</option>
-                </select>
+                  <label for="exampleFormControlTextarea1">Enter The Context</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Add context" name="context"></textarea>
                 </div>
-                
-                <!-- <input type="text" name="ques",placeholder="context">    -->
                 <div class="form-group">
+                <!-- <label for="exampleFormControlInput1">Enter the Context</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Add context" name="context"> -->
                 <label for="exampleFormControlInput1">Enter Question </label>
-                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Eg. Is there any vaccine?" name="ques">
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Ask any question ?" name="ques">
                 </div>
                 
-                <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+                
+                <button type="submit" class="btn btn-primary btn-block btn-large">Find Answer</button>
             </form>
             <br>
             <br>
